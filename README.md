@@ -1,95 +1,220 @@
-ISL Space Lab – Drone & Space Technology Training Portal
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ISL Space Lab – Drone & Space Technology Training Portal</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #1f2937;
+      background-color: #ffffff;
+    }
+    h1, h2, h3, h4 {
+      color: #111827;
+      margin-top: 2rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.6rem;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.3rem;
+    }
+    h3 {
+      font-size: 1.2rem;
+    }
+    p {
+      margin: 0.75rem 0;
+    }
+    ul {
+      margin-left: 1.2rem;
+    }
+    li {
+      margin: 0.4rem 0;
+    }
+    code, pre {
+      background: #f3f4f6;
+      padding: 10px;
+      border-radius: 6px;
+      display: block;
+      overflow-x: auto;
+      font-size: 0.9rem;
+    }
+    .badge {
+      display: inline-block;
+      background: #111827;
+      color: #ffffff;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+    }
+    footer {
+      margin-top: 4rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e5e7eb;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
 
-A comprehensive, hands-on training platform designed to help students and interns gain practical knowledge in UAV systems, mission planning, flight control, and space technology fundamentals through interactive course material and a virtual lab environment.
+<body>
 
-🚀 Overview
+  <h1>ISL Space Lab – Drone & Space Technology Training Portal</h1>
 
-The ISL Space Lab Training Portal provides structured learning modules combined with a virtual lab to simulate real-world aerospace and drone engineering scenarios. The platform focuses on practical understanding rather than theoretical-only instruction.
+  <p>
+    A comprehensive, hands-on training platform designed to equip students and interns with
+    <strong>practical expertise in UAV systems, mission planning, flight control, and space technology fundamentals</strong>
+    through interactive course material and a virtual lab environment.
+  </p>
 
-Key objectives:
+  <h2>🚀 Overview</h2>
+  <p>
+    The <strong>ISL Space Lab Training Portal</strong> combines structured learning modules with an interactive
+    virtual lab to simulate real-world aerospace and drone engineering workflows. The platform emphasizes
+    applied learning over theory-only instruction.
+  </p>
 
-Enable experiential learning for UAV and space systems
+  <h3>Key Objectives</h3>
+  <ul>
+    <li>Enable experiential learning for UAV and space systems</li>
+    <li>Deliver industry-aligned, practical curriculum</li>
+    <li>Support both self-paced and guided training programs</li>
+  </ul>
 
-Provide industry-aligned curriculum
+  <h2>🎯 Key Features</h2>
 
-Support self-paced and guided training
+  <h3>🧪 Virtual Lab</h3>
+  <ul>
+    <li>Interactive simulation environment for UAV and mission experiments</li>
+    <li>Real-world flight and mission planning scenarios</li>
+    <li>Safe experimentation without physical hardware dependency</li>
+  </ul>
 
-🎯 Key Features
-1. Virtual Lab
+  <h3>📚 Course Material</h3>
+  <ul>
+    <li>Well-structured, modular learning content</li>
+    <li>Clear progression from fundamentals to advanced concepts</li>
+    <li>Time-estimated sections for efficient learning</li>
+  </ul>
 
-Interactive lab environment for simulations and experiments
+  <h3>🧩 Modular Learning Areas</h3>
 
-Real-world UAV and mission scenarios
+  <h4>Flight Control Systems</h4>
+  <ul>
+    <li>PID tuning and control loops</li>
+    <li>Stability and control logic</li>
+    <li>Onboard flight controller fundamentals</li>
+  </ul>
 
-Safe experimentation without hardware dependency
+  <h4>Mission Planning</h4>
+  <ul>
+    <li>Waypoint-based mission design</li>
+    <li>Geofencing implementation</li>
+    <li>Fail-safe and contingency behaviors</li>
+  </ul>
 
-2. Course Material
+  <h4>Remote Sensing</h4>
+  <ul>
+    <li>LiDAR fundamentals</li>
+    <li>Multispectral imaging concepts</li>
+    <li>Aerial mapping techniques</li>
+  </ul>
 
-Well-structured learning modules
+  <h2>📘 Course Curriculum</h2>
 
-Clear progression from fundamentals to advanced topics
+  <h3>Advanced UAV Design & Aerodynamics (8 Hours)</h3>
+  <ul>
+    <li>Airframe selection and configuration</li>
+    <li>Propulsion system design</li>
+    <li>Aerodynamic performance considerations</li>
+  </ul>
 
-Time-estimated sections for efficient learning
+  <h3>Flight Control Systems & Avionics (10 Hours)</h3>
+  <ul>
+    <li>PID controllers and tuning strategies</li>
+    <li>IMU sensors and gyroscopes</li>
+    <li>Sensor fusion fundamentals</li>
+  </ul>
 
-3. Modular Learning Areas
+  <p><em>Additional modules can be added as the platform evolves.</em></p>
 
-Flight Control Systems
+  <h2>🛠️ Tech Stack</h2>
 
-PID tuning
+  <h3>Frontend</h3>
+  <ul>
+    <li>React.js / Next.js</li>
+    <li>Tailwind CSS</li>
+    <li>Framer Motion</li>
+    <li>Lucide Icons</li>
+  </ul>
 
-Stability and control logic
+  <h3>Backend</h3>
+  <ul>
+    <li>Node.js</li>
+    <li>Express.js</li>
+  </ul>
 
-Onboard flight controllers
+  <h3>Database</h3>
+  <ul>
+    <li>PostgreSQL / Supabase</li>
+  </ul>
 
-Mission Planning
+  <h3>Simulation</h3>
+  <ul>
+    <li>UAV and mission simulation frameworks</li>
+  </ul>
 
-Waypoint-based missions
+  <h2>📂 Project Structure</h2>
+  <pre>
+isl-space-lab/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── types/
+│   └── assets/
+├── public/
+├── README.md
+└── package.json
+  </pre>
 
-Geofencing
+  <h2>🔐 Access & Usage</h2>
+  <ul>
+    <li><strong>Course Material:</strong> Available to enrolled users</li>
+    <li><strong>Virtual Lab:</strong> Access controlled based on training level</li>
+    <li><strong>Internal Tools:</strong> Restricted to ISL internal users</li>
+  </ul>
 
-Fail-safe behaviors
+  <h2>📈 Roadmap</h2>
+  <ul>
+    <li>Real-time telemetry visualization</li>
+    <li>Advanced satellite mission simulations</li>
+    <li>Certification and assessment modules</li>
+    <li>Instructor dashboards and analytics</li>
+  </ul>
 
-Remote Sensing
+  <h2>🤝 Contributing</h2>
+  <p>
+    Contributions are welcome in curriculum enhancement, UI/UX improvements,
+    and simulation extensions. Please follow internal contribution guidelines
+    or submit a pull request.
+  </p>
 
-LiDAR fundamentals
+  <footer>
+    <p>
+      © ISL Space Lab. This project is proprietary. Unauthorized use, distribution,
+      or commercial reproduction is prohibited.
+    </p>
+  </footer>
 
-Multispectral imaging
-
-Aerial mapping techniques
-
-📘 Course Curriculum
-Advanced UAV Design & Aerodynamics (8 Hours)
-
-Airframe selection
-
-Propulsion systems
-
-Aerodynamic performance considerations
-
-Flight Control Systems & Avionics (10 Hours)
-
-PID controllers
-
-IMU and gyroscopes
-
-Sensor fusion concepts
-
-(Additional modules can be extended as the platform grows.)
-
-🛠️ Tech Stack (Suggested / Typical)
-
-Update this section based on your actual implementation.
-
-Frontend: React.js / Next.js
-
-Styling: Tailwind CSS
-
-Animations: Framer Motion
-
-Icons: Lucide Icons
-
-Backend: Node.js, Express
-
-Database: PostgreSQL / Supabase
-
-Simulation Tools: UAV / Mission simulation frameworks
+</body>
+</html>
