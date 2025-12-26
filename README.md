@@ -3,68 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ISL Space Lab – Drone & Space Technology Training Portal</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-      color: #1f2937;
-      background-color: #ffffff;
-    }
-    h1, h2, h3, h4 {
-      color: #111827;
-      margin-top: 2rem;
-    }
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 0.5rem;
-    }
-    h2 {
-      font-size: 1.6rem;
-      border-bottom: 2px solid #e5e7eb;
-      padding-bottom: 0.3rem;
-    }
-    h3 {
-      font-size: 1.2rem;
-    }
-    p {
-      margin: 0.75rem 0;
-    }
-    ul {
-      margin-left: 1.2rem;
-    }
-    li {
-      margin: 0.4rem 0;
-    }
-    code, pre {
-      background: #f3f4f6;
-      padding: 10px;
-      border-radius: 6px;
-      display: block;
-      overflow-x: auto;
-      font-size: 0.9rem;
-    }
-    .badge {
-      display: inline-block;
-      background: #111827;
-      color: #ffffff;
-      padding: 4px 10px;
-      border-radius: 12px;
-      font-size: 0.8rem;
-      margin-right: 6px;
-    }
-    footer {
-      margin-top: 4rem;
-      padding-top: 1rem;
-      border-top: 1px solid #e5e7eb;
-      font-size: 0.9rem;
-      color: #6b7280;
-    }
-  </style>
-</head>
 
 <body>
 
